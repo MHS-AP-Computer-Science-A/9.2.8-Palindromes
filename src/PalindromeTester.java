@@ -8,16 +8,7 @@ public class PalindromeTester {
      */
     public static boolean isPalindrome(String str) {
 
-        if(str.length() <= 1){
-            return true;
-        }
-        if(!str.substring(0,1).equals(str.substring(str.length()-1))){
-            return false;
-        }
-
-        return isPalindrome(str.substring(1, str.length()-1));
-
-        //return false; // placeholder so the code compiles
+        return false; // placeholder so the code compiles
     }
 
     public static void main(String[] args) {
@@ -34,3 +25,4 @@ public class PalindromeTester {
     }
 
 }
+
